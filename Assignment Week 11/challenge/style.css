@@ -1,0 +1,19 @@
+.container {
+  width: 90%;
+  margin: auto;
+  background-color: #837777;
+  padding: 50px 40px;
+}
+h2{
+  background-color: #7ee411;
+  padding: 40px;
+  text-align: center;
+}
+h3{
+  padding: 20px;
+  background-color: #b7f36e;
+}
+p{
+  background-color: #eaeee5;
+  padding: 10px;
+}
