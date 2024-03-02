@@ -58,3 +58,13 @@ let newNums = nums.reduce(
   (acc, curr) => (curr % 2 != 0 ? acc + curr : acc * curr), 1);
 
 console.log(newNums);
+
+function ajouterA(x) {
+  return function (y) {
+    return x * y;
+  };
+}
+
+var ajouter_5 = ajouterA(5);
+
+console.log(ajouter_5(2)); // 7
